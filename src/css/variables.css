@@ -1,7 +1,10 @@
 :root {
-    /* Fonts */
-    --mainfont : "DM", sans-serif;
-    /* Colors */
-    --white : #fff;
-    --black: #121212;
+  /* Fonts */
+  --mainfont: 'DM', sans-serif;
+  /* Colors */
+  --white: #fff;
+  --black: #121212;
+  --dark_gray: #1d1d1d;
+  --gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  --brown: #bea69e;
 }
