@@ -1,1 +1,118 @@
 @import url('./variables.css');
+
+.footer {
+    color: #FFF;
+    font-family: "DM", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    text-transform: uppercase;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+
+.container {
+    max-width: 1240px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-logo {
+    margin-top: 50px;
+}
+
+.logo {
+    fill: #FFF;
+}
+
+.address {
+    display: block;
+    gap: 10px;
+    margin-top: 25px;
+    margin-bottom: 133px;
+}
+
+.address-contacts {}
+
+.text {}
+
+.form {}
+
+.form-label {}
+
+.form-link {}
+
+.block {
+    display: block;
+    margin-right: 191px;
+
+}
+
+.social {
+    margin-right: 100px;
+}
+
+.list-block {
+    gap: 20px;
+}
+
+.item-block {}
+
+.item-link {}
+
+.menu {}
+
+.form-email {}
+
+.footer-form {}
+
+.footer-label {}
+
+.footer-form-input {
+    width: 216px;
+    height: 60px;
+    outline: transparent;
+    background-color: var(--white);
+    border-radius: 12px;
+    letter-spacing: 0.04em;
+    padding: 20px 18px;
+    color: #121212;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.button {
+    border-radius: 12px;
+    background: #1D1D1D;
+    padding: 18px 16px 18px 17px;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.copyright {}
