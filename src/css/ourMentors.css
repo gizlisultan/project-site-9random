@@ -1,1 +1,39 @@
 @import url('./variables.css');
+.section {
+}
+.mentors-section {
+}
+.container {
+}
+.mentors-container {
+}
+.title {
+}
+.mentors-title {
+  font-family: 'DM Sans';
+
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.14;
+
+  letter-spacing: -0.04em;
+}
+.mentors-title-accent {
+  color: var(--brown);
+}
+.list {
+}
+.mentors-section-list {
+}
+.item {
+}
+.mentors-section-list-item {
+}
+.img {
+}
+.mentors-section-list-img {
+}
+.mentors-section-list-item-caption {
+}
+.mentors-section-list-item-text {
+}
