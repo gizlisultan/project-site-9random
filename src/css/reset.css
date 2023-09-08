@@ -33,3 +33,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+body{
+  background-color: var(--black);
+  color: var(--white);
+  font-family: var(--mainfont);
+  font-size: 16px;
+}
