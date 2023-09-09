@@ -1,39 +1,6 @@
 @import url('./variables.css');
 
-/* phone screen*/
-.container {
-  min-width: 320px;
-  max-width: 375px;
-
-  margin-left: auto;
-  margin-right: auto;
-
-  padding-left: 20px;
-  padding-right: 20px;
-
-  outline: 1px solid red;
-  outline-offset: -2px;
-}
-/* tablet screen */
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-/* pc(1280) screen */
-@media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-}
-
-/*  */
+/* reviews section */
 .reviews-section {
   padding-bottom: 80px;
 }
@@ -47,6 +14,8 @@
     padding-bottom: 150px;
   }
 }
+
+/* reviews title*/
 .reviews-title {
   color: var(--white);
   font-size: 28px;
@@ -64,8 +33,31 @@
     margin-bottom: 50px;
   }
 }
+
+/* reviews card*/
+@media only screen and (min-width: 1280px) {
+  .reviews-card {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+/* info rating */
+.info-rating {
+  margin-bottom: 4px;
+}
+@media only screen and (min-width: 768px) {
+  .info-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+  }
+}
+
+/* reviews wrapper */
 .reviews-wrapper {
-  max-width: 335px;
   padding: 20px;
 
   border-radius: 12px;
@@ -82,12 +74,26 @@
     max-width: 530px;
   }
 }
+@media only screen and (max-width: 1280px) {
+  .reviews-wrapper.visibility {
+    display: none;
+  }
+}
+
+/* personal info */
+.personal-info {
+  display: flex;
+  gap: 10px;
+}
 .personal-info-box {
 }
 .personal-info-photo {
+  width: 56px;
+  height: 56px;
 }
+
+/* personal info title */
 .personal-info-title {
-  color: var(--white);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -99,6 +105,8 @@
     line-height: 1.4;
   }
 }
+
+/* personal info text */
 .personal-info-text {
   color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
@@ -111,16 +119,26 @@
     line-height: 1.28;
   }
 }
+
+/* rating box */
 .rating-box {
-  display: flex;
-  align-items: center;
-  gap: 4px;
+  margin-left: 66px;
+  margin-bottom: 20px;
 }
+
 .rating-box-star {
 }
+
+/* reviews text */
 .reviews-text {
-  color: var(--white);
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
 }
