@@ -8,3 +8,32 @@
   --gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
   --brown: #bea69e;
 }
+/* phone screen*/
+.container {
+  min-width: 320px;
+  max-width: 375px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* tablet screen */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+/* pc(1280) screen */
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
