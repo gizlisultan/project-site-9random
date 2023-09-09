@@ -1,13 +1,11 @@
 @import url('./variables.css');
 
 .footer {
-    color: #FFF;
-    font-family: "DM", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.29;
-    text-transform: uppercase;
+
 }
 
 .list {
@@ -20,99 +18,202 @@
     text-decoration: none;
 }
 
-
-
+/* phone screen*/
 .container {
-    max-width: 1240px;
-    padding-left: 0;
-    padding-right: 0;
+    min-width: 320px;
+    max-width: 375px;
+
     margin-left: auto;
     margin-right: auto;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    outline: 1px solid red;
+    outline-offset: -2px;
+}
+
+/* tablet screen */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+/* pc(1280) screen */
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+
+.footer {
+    padding-top: 80px;
 }
 
 .container-footer {
     display: flex;
     flex-direction: column;
-
 }
 
-.container-logo {
-    margin-top: 50px;
+@media only screen and (max-width: 767.98px) {
+
+    .container-logo {
+        margin-top: 40px;
+
+    }
 }
+
+
 
 .logo {
     fill: #FFF;
 }
 
 .address {
-    display: block;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
-    margin-top: 25px;
-    margin-bottom: 133px;
 }
 
-.address-contacts {}
-
-.text {}
-
-.form {}
-
-.form-label {}
-
-.form-link {}
+.address-contacts {
+    text-transform: uppercase;
+}
 
 .block {
-    display: block;
-    margin-right: 191px;
+    margin-bottom: 75px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    text-transform: uppercase;
 
 }
 
-.social {
-    margin-right: 100px;
-}
 
 .list-block {
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+
 }
 
-.item-block {}
+.footer-form {
+    display: flex;
+    gap: 8px;
 
-.item-link {}
+}
 
-.menu {}
-
-.form-email {}
-
-.footer-form {}
-
-.footer-label {}
+.footer-label {
+    font-size: 16px;
+    line-height: 1.2;
+}
 
 .footer-form-input {
-    width: 216px;
+    width: 267px;
     height: 60px;
-    outline: transparent;
-    background-color: var(--white);
     border-radius: 12px;
-    letter-spacing: 0.04em;
     padding: 20px 18px;
-    color: #121212;
-    font-size: 16px;
-    line-height: 1.25;
 }
 
 .button {
-    border-radius: 12px;
-    background: #1D1D1D;
-    padding: 18px 16px 18px 17px;
-    justify-content: center;
-    align-items: center;
     width: 60px;
     height: 60px;
-    cursor: pointer;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
+    border-radius: 12px;
+    background: #1D1D1D;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
-.copyright {}
+.form-copyration {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 72px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.33;
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .footer {
+        padding-top: 100px;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+
+    .logo-contacts {
+        margin-right: 58px;
+    }
+
+    .address {
+        margin-top: 25px;
+    }
+
+    .block {
+        gap: 25px;
+        margin-right: auto;
+        margin-bottom: 74px;
+    }
+
+    .footer-form-input {
+        max-width: 178px;
+    }
+
+    .form-copyration {
+        margin-top: 0;
+    }
+
+    .copiration {
+        margin-left: 399px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .footer {
+        padding-top: 150px;
+    }
+
+    .logo-contacts {
+        margin-right: 285px;
+    }
+
+    .block {
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .footer-form-input {
+        max-width: 216px;
+    }
+
+    .list-block {
+        gap: 20px;
+    }
+
+    .form-copiration {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
