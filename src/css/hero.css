@@ -20,35 +20,54 @@
   font-weight: 500;
   line-height: 1.1; /* 110% */
   letter-spacing: -0.04em;
-  padding: 20px 20px;
+  margin-bottom: 20px;
 }
 .hero-text {
   color: #fff;
-  font-family: DM Sans;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29; /* 128.571% */
-  letter-spacing: -0.2em;
-  padding: 20px 40px;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
 }
 .hero-students-sec {
+  display: flex;
+  margin-bottom: 31px;
+}
+.hero-students-img {
+  padding-right: 40px;
 }
 .hero-students {
+  padding-bottom: 4px;
+}
+.hero-students-linc {
+  display: flex;
+  align-items: center;
 }
 .hero-students-text {
   display: flex;
-  width: 64px;
-  height: 36px;
+  width: 67px;
+  padding-right: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.04em;
 }
 .hero-icon {
+  padding-right: 12px;
 }
 .hero-reviews {
   display: flex;
+  height: 44px;
+  align-items: center;
+}
+.hero-reviews-t {
+  display: flex;
+  flex-direction: column;
 }
 .hero-reviews-text {
 }
 .rectangle {
-  width: 259px;
-  align-items: center;
-  justify-content: center;
+  display: flex;
 }
