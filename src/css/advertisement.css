@@ -16,10 +16,9 @@
   text-transform: uppercase;
   flex-shrink: 0;
   margin: 0;
-  width: 100%;
   white-space: nowrap;
   animation-name: adLine;
-  animation-duration: 7s;
+  animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   color: #bea69e;
@@ -48,6 +47,7 @@
   .ad_line {
     font-size: 28px;
     line-height: 1.14;
+    width: 580px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -61,6 +61,7 @@
     justify-content: center;
   }
   .ad_line {
+    width: 840px;
     font-size: 40px;
     line-height: 1.25;
     padding-top: 24px;
