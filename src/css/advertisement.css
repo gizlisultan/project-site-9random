@@ -1,1 +1,39 @@
 @import url('./variables.css');
+
+.advertisement {
+  overflow: hidden;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 34px;
+  text-transform: uppercase;
+  background-color: black;
+}
+
+.ad {
+  display: flex;
+}
+.ad_line {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 10px 15px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: adLine;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  color: #bea69e;
+}
+.ad_line span {
+  color: #fff;
+}
+
+@keyframes adLine {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
