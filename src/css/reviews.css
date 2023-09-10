@@ -44,15 +44,26 @@
 
 /* info rating */
 .info-rating {
-  margin-bottom: 4px;
+  margin-bottom: 20px;
 }
 @media only screen and (min-width: 768px) {
   .info-rating {
     display: flex;
-    align-items: center;
+    align-items: self-start;
     justify-content: space-between;
+  }
+}
 
-    margin-bottom: 20px;
+/* info card */
+.info-card {
+  display: flex;
+  gap: 10px;
+
+  margin-bottom: 4px;
+}
+@media only screen and (min-width: 768px) {
+  .info-card {
+    margin-bottom: 0;
   }
 }
 
@@ -80,16 +91,8 @@
   }
 }
 
-/* personal info */
-.personal-info {
-  display: flex;
-  gap: 10px;
-}
-.personal-info-box {
-}
-.personal-info-photo {
-  width: 56px;
-  height: 56px;
+.personal-info-items {
+  margin-bottom: 4px;
 }
 
 /* personal info title */
@@ -97,8 +100,6 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-
-  margin-bottom: 4px;
 }
 @media only screen and (min-width: 768px) {
   .personal-info-title {
@@ -123,21 +124,26 @@
 /* rating box */
 .rating-box {
   margin-left: 66px;
-  margin-bottom: 20px;
+  display: flex;
+  gap: 4px;
 }
-
-.rating-box-star {
+@media only screen and (min-width: 768px) {
+  .rating-box {
+    align-items: baseline;
+  }
 }
 
 /* reviews text */
 .reviews-text {
-  font-size: 14px;
+  /* по макету 14, але виглядає не як за макетом */
+  font-size: 15px;
   line-height: 1.28;
   letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) {
   .reviews-text {
-    font-size: 16px;
+    /* по макету 16, але виглядає не як за макетом */
+    font-size: 17px;
     line-height: 1.25;
     letter-spacing: -0.02em;
   }
