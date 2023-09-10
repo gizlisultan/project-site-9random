@@ -130,6 +130,7 @@
 @media only screen and (min-width: 768px) {
   .rating-box {
     align-items: baseline;
+    margin-left: 0px;
   }
 }
 
