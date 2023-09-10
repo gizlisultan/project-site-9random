@@ -19,10 +19,11 @@
   width: 100%;
   white-space: nowrap;
   animation-name: adLine;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   color: #bea69e;
+  text-align: center;
 }
 .ad_line span {
   color: #fff;
@@ -41,7 +42,7 @@
 
 @media screen and (max-width: 767px) {
   .advertisement {
-    width: 588px;
+    min-width: 588px;
     height: 72px;
   }
   .ad_line {
@@ -53,7 +54,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .advertisement {
-    width: 840px;
+    min-width: 840px;
     height: 98px;
   }
   .ad {
