@@ -4,47 +4,44 @@
       About <span class="about-us-title-special">Us</span>
     </h2>
     <div class="about-us-block">
+      <picture>
+        <!-- Desktop screen -->
+        <source
+          media="(min-width: 1200px)"
+          srcset="
+            ./img/AboutUs/About_us_Rectangle@1x_desktop.png 1x,
+            ./img/AboutUs/About_us_Rectangle@2x_desktop.png 2x
+          "
+          type="image/png"
+        />
+        <!-- Tablet screen -->
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/AboutUs/About_us_Rectangle@1x_tablet.png 1x,
+            ./img/AboutUs/About_us_Rectangle@2x_tablet.png 2x
+          "
+          type="image/png"
+        />
+        <!-- Mobile screen -->
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/AboutUs/About_us_Rectangle@1x_mobile.png 1x,
+            ./img/AboutUs/About_us_Rectangle@2x_mobile
+          "
+          type="image/png"
+        />
+        <img
+          class="about-us-image"
+          src="./img/AboutUs/About_us_Rectangle@1x_mobile.png 1x"
+          alt="PhotoCamera"
+          width="209"
+          height="335"
+          loading="lazy"
+        />
+      </picture>
       <ul class="about-us-text">
-        <li class="about-us-items">
-          <picture>
-            <!-- Desktop screen -->
-            <source
-              media="(min-width: 1200px)"
-              srcset="
-                ./img/AboutUs/About_us_Rectangle@1x_desktop.png 1x,
-                ./img/AboutUs/About_us_Rectangle@2x_desktop.png 2x
-              "
-              type="image/png"
-            />
-            <!-- Tablet screen -->
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                ./img/AboutUs/About_us_Rectangle@1x_tablet.png 1x,
-                ./img/AboutUs/About_us_Rectangle@2x_tablet.png 2x
-              "
-              type="image/png"
-            />
-            <!-- Mobile screen -->
-            <source
-              media="(max-width: 767px)"
-              srcset="
-                ./img/AboutUs/About_us_Rectangle@1x_mobile.png 1x,
-                ./img/AboutUs/About_us_Rectangle@2x_mobile
-              "
-              type="image/png"
-            />
-            <img
-              class="about-us-image"
-              src="./img/AboutUs/About_us_Rectangle@1x_mobile.png 1x"
-              alt="PhotoCamera"
-              width="209"
-              height="335"
-              loading="lazy"
-            />
-          </picture>
-        </li>
-        <!-- <ul class="about-us-text"> -->
         <li class="about-us-items">
           <p class="about-us-paragraph">
             Our photography school is designed to teach you everything you need
