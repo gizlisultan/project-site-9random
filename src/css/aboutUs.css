@@ -84,39 +84,48 @@
 }
 
 .about-us-image {
-    /* display: block; */
-    /* margin-bottom: 40px; */
+    width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
     .about-us-image {
         /* display: block; */
         /* margin-bottom: 50px; */
+        /* width: 100%; */
         }
 }
 
 @media only screen and (min-width: 1280px) {
     .about-us-image {
-        /* display: block; */
-        /* margin-bottom: 50px; */
+        display: flex;
+        gap: 20px;
         }
 }
 
 .about-us-text {
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 @media only screen and (min-width: 768px) {
     .about-us-text {
+        display: flex;
+        flex-wrap: wrap;
         gap: 40px;
         }
 }
 
 @media only screen and (min-width: 1280px) {
     .about-us-text {
+        display: flex;
+        align-items: flex-start;
         gap: 20px;
         }
 }
+
+.about-us-items:not(:last-child) {
+    margin-bottom: 20px;
+}
+
 .about-us-paragraph {
     color: var(--white);
     font-size: 14px;
@@ -124,6 +133,7 @@
     font-weight: 400;
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.28px;
+    width: 335px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -131,6 +141,8 @@
         font-size: 16px;
         line-height: 20px;/* 125% */
         letter-spacing: -0.32px;
+        width: 280px;
+        height: 240px;
     }
 }
 
@@ -139,5 +151,7 @@
         font-size: 16px;
         line-height: 20px; /* 125% */
         letter-spacing: -0.32px;
+        width: 268px;
+        height: 260px;
     }
 }
