@@ -38,3 +38,32 @@
   max-width: 279px;
   height: 32;
 }
+@media screen and (min-width: 768px) {
+  .our-courses p {
+    max-width: 381px;
+  }
+  .courses {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+  }
+  .courses-present {
+    display: flex;
+    justify-content: space-between;
+  }
+  .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .course-item {
+    max-width: 342px;
+    height: 452px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .our-courses p {
+    max-width: 407px;
+  }
+}
