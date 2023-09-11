@@ -1,7 +1,7 @@
 @import url('./variables.css');
 
 .section-about-us {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 20px;
@@ -9,7 +9,7 @@
 
 @media only screen and (min-width: 768px) {
     .section-about-us {
-        display: inline-flex;
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding-bottom: 20px;
@@ -18,7 +18,7 @@
 
 @media only screen and (min-width: 1280px) {
     .section-about-us {
-        display: inline-flex;
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding-bottom: 20px;
