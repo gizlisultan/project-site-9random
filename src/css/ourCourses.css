@@ -1,1 +1,40 @@
 @import url('./variables.css');
+.courses {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+}
+.courses span {
+  color: #bea69e;
+}
+.our-courses .paragraph {
+  margin-bottom: 30px;
+}
+.course-list p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.course-item {
+  max-width: 335px;
+  max-height: 398px;
+  padding: 28px;
+  outline: 1px solid gray;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+}
+.course-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.course-item h3 {
+  margin-bottom: 50px;
+}
+
+.ancor {
+  display: flex;
+  justify-content: space-between;
+  max-width: 279px;
+  height: 32;
+}

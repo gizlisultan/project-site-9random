@@ -19,7 +19,8 @@
 <path  stroke="#121212" style="stroke: var(--color4, #121212)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.0909" d="M16 9.939l1.873 3.794 4.188 0.612-3.030 2.952 0.715 4.17-3.745-1.97-3.745 1.97 0.715-4.17-3.030-2.951 4.188-0.612 1.873-3.794z"></path>
 </symbol>
 <symbol id="icon-Arrow" viewBox="0 0 58 32">
-<path  style="fill: var(--color2, #fff)" d="M40 2.144l17.6 13.856-17.6 13.856v-11.456h-40v-4.8h40v-11.456z"></path>
+<path d="M5 15L15 5" stroke="#777777" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.33325 5H14.9999V11.6667" stroke="#777777" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol>
 <symbol id="icon-camera_symbol" viewBox="0 0 32 32">
 
