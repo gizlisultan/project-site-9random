@@ -1,5 +1,5 @@
-<hero class=" hero-sec">
-	<div class="container ">
+<section class=" hero-sec">
+	<class="container">
 		<div class="hero-cont">
 			<div class="hero-decs">
 				<h1 class="hero-title">Discover the magic of <span class="photography">photography</span> in our school
@@ -17,7 +17,15 @@
 								   ./img/Hero/students@1x_mobile.jpg   1x,
 								   ./img/Hero/students@2x_mobile.jpg   2x
 								   " media="(min-width: 375px)" />
-								<img src="./img/Hero/students@1x_mobile.jpg" alt="students" width="107" height="44" />
+								<source srcset="
+								   ./img/Hero/students@1x_tablet.jpg   1x,
+								   ./img/Hero/students@2x_tablet.jpg   2x
+								   " media="(min-width: 768px)" />
+								<source srcset="
+								   ./img/Hero/students@1x_desktop.jpg   1x,
+								   ./img/Hero/students@2x_desktop.jpg   2x
+								   " media="(min-width: 1280px)" />
+								<img src="./img/Hero/students@1x_desktop.jpg" alt="students" width="135" height="54" />
 							</picture>
 						</div>
 						<div class="hero-students-linc">
@@ -38,14 +46,24 @@
 					</div>
 				</div>
 			</div>
-			<div class="rectangle">
+			<picture class="rectangle">
 				<picture>
 					<source srcset="
 						   ./img/Hero/hero_rectangle@1x_mobile.jpg   1x,
 						   ./img/Hero/hero_rectangle@2x_mobile.jpg   2x
 						   " media="(min-width: 375px)" />
-					<img src="./img/Hero/hero_rectangle@1x_mobile.jpg" alt="rectangle" width="259" height="319" />
+					<source srcset="
+						   ./img/Hero/hero_rectangle@1x_tablet.jpg  1x,
+						   ./img/Hero/hero_rectangle@2x_tablet.jpg   2x
+						   " media="(min-width: 768px)" />
+					<source srcset="
+						   ./img/Hero/hero_rectangle@1x_desktop.jpg   1x,
+						   ./img/Hero/hero_rectangle@2x_desktop.jpg   2x
+						   " media="(min-width: 1280px)" />
+					<img src="./img/Hero/hero_rectangle@1x_desktop.jpg" alt="rectangle" width="397" height="520" />
 					</img>
-			</div>
+				</picture>
+
 		</div>
-</hero>
+		</div>
+	</class="container">
