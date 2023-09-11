@@ -56,7 +56,7 @@
     height: 60px;
   }
   .container-head{
-    max-width: 822px;
+    min-width: 822px;
   }
 }
 @media screen  and (min-width:768px) {
@@ -130,7 +130,7 @@
 }
 @media screen  and (min-width:769px) {
   .signup-header{
-    width: 238px;
+    max-width: 238px;
   }
 }
 
