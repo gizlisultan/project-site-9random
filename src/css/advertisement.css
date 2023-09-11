@@ -1,1 +1,76 @@
 @import url('./variables.css');
+
+.advertisement {
+  overflow: hidden;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 28px;
+  text-transform: uppercase;
+  background-color: black;
+  outline: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ad_inner {
+  display: flex;
+}
+
+.ad_line {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 20px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: adLine;
+  animation-duration: 7s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  color: #bea69e;
+  font-weight: 400;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+}
+.ad_line span {
+  color: white;
+}
+@media screen and (max-width: 1280px) {
+  @keyframes adLine {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .ad_inner {
+    min-width: 588px;
+    height: 72px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ad_inner {
+    min-width: 840px;
+    height: 98px;
+  }
+  .ad_line {
+    font-size: 40px;
+    padding: 24px;
+    line-height: 1.25;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .ad_inner {
+    min-width: 1280px;
+    height: 112px;
+  }
+  .ad_line {
+    font-size: 59px;
+    padding: 21px 24px;
+    line-height: 1.08;
+    word-spacing: 20px;
+    text-align: center;
+  }
+}
