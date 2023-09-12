@@ -27,13 +27,14 @@
 }
 
 .logo-header.lg {
-  margin-top: 17px;
-  margin-bottom: 17px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  /* margin-top: 17px;
+  margin-bottom: 17px; */
 }
 @media screen and (min-width: 429px) {
   .logo-header {
-    margin-top: 22px;
-    margin-bottom: 22px;
   }
 }
 .navbar-header {
@@ -51,15 +52,12 @@
   .navbar-header {
     max-width: 504px;
     width: 100%;
-    height: 60px;
-  }
-  .container-head {
-    max-width: 822px;
   }
 }
 @media screen and (min-width: 768px) {
   .navbar-header {
     max-width: 822px;
+    height: 60px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -82,11 +80,10 @@
   opacity: 40%;
 }
 .signup-mobile-header {
-  margin-top: 8px;
+  /* margin-top: 8px; */
 }
 @media screen and (min-width: 429px) {
   .signup-mobile-header {
-    display: none;
   }
 }
 .icon-header-signup:hover,
@@ -105,6 +102,7 @@
 .mobile-butons-header {
   display: flex;
   gap: 14px;
+  align-items: center;
 }
 /**
   |================================================================================================================
@@ -124,6 +122,8 @@
   line-height: 1.55;
   font-weight: 700;
   border-radius: 12px;
+
+  transition: color var(--animation), background-color var(--animation);
 }
 .signup-header:focus,
 .signup-header:hover {
@@ -159,6 +159,8 @@
   text-transform: uppercase;
   font-weight: 400;
   font-size: 14px;
+
+  transition: color var(--animation);
 }
 .header-link:hover,
 .header-link:focus {
@@ -273,7 +275,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 429px) {
+@media screen and (max-width: 767.98px) {
   .signup-header.h-button {
     display: none;
   }
