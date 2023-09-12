@@ -130,6 +130,7 @@
     display: flex;
     gap: 8px;
     justify-content: space-between;
+    
 
 }
 
@@ -139,7 +140,7 @@
 }
 
 .footer-form-input {
-    width: calc(100%-60px);
+    width: 267px;
     height: 60px;
     border-radius: 12px;
     padding: 20px 18px;
