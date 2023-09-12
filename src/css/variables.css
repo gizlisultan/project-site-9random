@@ -40,15 +40,15 @@
   }
 }
 .header-hero-background {
-  background-image: url(../img/Graphics/Graphic_mobile.png);
+  background-image: url(../img/graphics/graphic-mobile.png);
 }
 @media only screen and (min-width: 768px) {
   .header-hero-background {
-    background-image: url(../img/Graphics/Graphic_tablet.png);
+    background-image: url(../img/graphics/graphic-tablet.png);
   }
 }
 @media only screen and (min-width: 1280px) {
   .header-hero-background {
-    background-image: url(../img/Graphics/Graphic_desktop.png);
+    background-image: url(../img/graphics/graphic-desktop.png);
   }
 }

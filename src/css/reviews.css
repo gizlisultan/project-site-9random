@@ -147,3 +147,7 @@
     letter-spacing: -0.02em;
   }
 }
+
+.current-star {
+  fill: var(--brown);
+}

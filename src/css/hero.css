@@ -191,6 +191,10 @@
     margin-bottom: 8px;
     width: 82px;
   }
+  .hero-students-text:hover,
+  .hero-students-text:focus {
+  }
+
   .hero-reviews-text {
     font-size: 16px;
     line-height: 20px; /* 125% */
