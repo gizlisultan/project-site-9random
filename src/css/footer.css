@@ -60,6 +60,9 @@
 }
 
 .logo {
+    font-size: 20px;
+    fill: #FFF;
+=======
   font-size: 32px;
   fill: #fff;
 }
@@ -106,6 +109,12 @@
 }
 
 .footer-form {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    
+
+=======
   display: flex;
   gap: 8px;
   justify-content: space-between;
@@ -117,6 +126,11 @@
 }
 
 .footer-form-input {
+    width: 267px;
+    height: 60px;
+    border-radius: 12px;
+    padding: 20px 18px;
+=======
   background-color: var(--white);
   color: var(--dark_gray);
   width: calc(100%-60px);
