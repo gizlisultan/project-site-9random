@@ -18,6 +18,7 @@
   border-radius: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 90px;
 }
 .hero-title {
   color: #fff;
@@ -131,6 +132,7 @@
     border-radius: 30px;
     padding-left: 32px;
     padding-right: 155px;
+    margin-top: 120px;
   }
   .hero-title {
     padding-top: 64px;
@@ -200,6 +202,7 @@
     padding-right: 50px;
     justify-content: space-between;
     align-items: flex-end;
+    margin-top: 160px;
   }
   .hero-decs {
     display: flex;

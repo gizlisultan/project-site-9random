@@ -32,7 +32,7 @@
   margin-top: 17px;
   margin-bottom: 17px;
 }
-@media screen  and (min-width:429px) {
+@media screen  and (min-width:767.8px) {
   .logo-header{
     margin-top: 22px;
     margin-bottom: 22px;
@@ -49,7 +49,7 @@
   display: flex;
   justify-content: space-between;
 }
-@media screen  and (min-width:429px) {
+@media screen  and (min-width:768px) {
   .navbar-header{
     max-width: 504px;
     width: 100%;
@@ -59,7 +59,7 @@
     min-width: 822px;
   }
 }
-@media screen  and (min-width:768px) {
+@media screen  and (min-width:1280px) {
   .navbar-header{
     max-width: 822px;
   }
@@ -82,11 +82,8 @@
 .signup-mobile-header{
   margin-top: 8px;
 }
-@media screen  and (min-width:429px) {
-  .signup-mobile-header{
-    display: none;
-}
-}
+
+
 .icon-header-signup:hover,
 .icon-header-signup:focus{
   opacity: 100%;
@@ -122,11 +119,12 @@
   line-height: 1.55;
   font-weight: 700;
   border-radius: 12px;
+  color:var(--black) !important;
 }
 .signup-header:focus,
 .signup-header:hover{
   background-color: #1D1D1D;
-  color: #BEA69E;
+  color: #BEA69E !important;
 }
 @media screen  and (min-width:769px) {
   .signup-header{
@@ -260,7 +258,7 @@
     }
     
 }
-@media screen  and (max-width: 429px){
+@media screen  and (max-width: 767.8px){
     .signup-header{
         display: none;
     }
@@ -268,12 +266,13 @@
       display: none;
     }
 }
-@media screen  and (min-width: 429px){
+@media screen  and (min-width: 768px){
     .mobile-photo{
       display: none;
     }
+    
 }
-@media screen  and (min-width: 769px){
+@media screen  and (min-width: 767.8px){
     .signup-mobile-header{
         display: none;
     }
