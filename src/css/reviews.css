@@ -1,1 +1,149 @@
 @import url('./variables.css');
+
+/* reviews section */
+.reviews-section {
+  padding-bottom: 80px;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-section {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .reviews-section {
+    padding-bottom: 150px;
+  }
+}
+
+/* reviews title*/
+.reviews-title {
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-title {
+    font-size: 48px;
+    line-height: 1.12;
+
+    margin-bottom: 50px;
+  }
+}
+
+/* reviews card*/
+@media only screen and (min-width: 1280px) {
+  .reviews-card {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+/* info rating */
+.info-rating {
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .info-rating {
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+  }
+}
+
+/* info card */
+.info-card {
+  display: flex;
+  gap: 10px;
+
+  margin-bottom: 4px;
+}
+@media only screen and (min-width: 768px) {
+  .info-card {
+    margin-bottom: 0;
+  }
+}
+
+/* reviews wrapper */
+.reviews-wrapper {
+  padding: 20px;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+@media only screen and (min-width: 768px) {
+  .reviews-wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .reviews-wrapper {
+    max-width: 530px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .reviews-wrapper.visibility {
+    display: none;
+  }
+}
+
+.personal-info-items {
+  margin-bottom: 4px;
+}
+
+/* personal info title */
+.personal-info-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 768px) {
+  .personal-info-title {
+    line-height: 1.4;
+  }
+}
+
+/* personal info text */
+.personal-info-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+  .personal-info-text {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+}
+
+/* rating box */
+.rating-box {
+  margin-left: 66px;
+  display: flex;
+  gap: 4px;
+}
+@media only screen and (min-width: 768px) {
+  .rating-box {
+    align-items: baseline;
+    margin-left: 0px;
+  }
+}
+
+/* reviews text */
+.reviews-text {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+}
