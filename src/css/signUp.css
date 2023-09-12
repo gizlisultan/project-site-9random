@@ -29,11 +29,17 @@
 @import url('./variables.css');
 
 .display {
-  display: inline-flex;
+  /* display: inline-flex;
   align-items: flex-start;
-  gap: 60px;
+  gap: 60px; */
 }
-
+@media only screen and (min-width: 1280px) {
+  .display {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 60px;
+  }
+}
 .skoworodka {
   display: flex;
 }
@@ -66,6 +72,17 @@
     letter-spacing: -0.04em;
     justify-content: left;
   }
+  @media only screen and (min-width: 768px) {
+    .ilovetitle {
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 1.12;
+
+      letter-spacing: -0.04em;
+
+      color: #ffffff;
+    }
+  }
 
   .thisspaniscool {
     color: #bea69e;
@@ -75,6 +92,15 @@
     font-weight: 500;
     line-height: 1.15;
     letter-spacing: -0.04em;
+  }
+  @media only screen and (min-width: 768px) {
+    .thisspaniscool {
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 1.12;
+
+      letter-spacing: -0.04em;
+    }
   }
 
   .paragraphiswonderfull {
@@ -269,16 +295,6 @@
     padding-top: 156px;
     padding-left: 50px;
     display: block;
-  }
-
-  @media only screen and (min-width: 768px) {
-    .ilovetitle {
-      font-size: 48px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 1.125;
-      letter-spacing: -0.04em;
-    }
   }
 
   .thisspaniscool {
