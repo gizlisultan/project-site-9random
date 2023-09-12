@@ -39,3 +39,16 @@
     padding-right: 100px;
   }
 }
+.header-hero-background {
+  background-image: url(../img/Graphics/Graphic_mobile.png);
+}
+@media only screen and (min-width: 768px) {
+  .header-hero-background {
+    background-image: url(../img/Graphics/Graphic_tablet.png);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header-hero-background {
+    background-image: url(../img/Graphics/Graphic_desktop.png);
+  }
+}
