@@ -1,7 +1,6 @@
 @import url('./variables.css');
 
-
-                                 /* Mobile (375px) */
+/* Mobile (375px) */
 .container {
   min-width: 320px;
   max-width: 375px;
@@ -13,13 +12,12 @@
   padding-right: 20px;
 }
 
-
 .our-courses {
-  padding: 40px 0;
+  padding-bottom: 80px;
+  /*  */
 }
 
 /* Text Block */
-
 
 .courses-text {
   display: flex;
@@ -35,8 +33,6 @@
   letter-spacing: -0.04em;
 }
 
-
-
 .subtitle-accent {
   color: var(--brown);
 }
@@ -48,8 +44,6 @@
   letter-spacing: -0.02em;
 }
 
-
-
 /* Cards List */
 
 .courses-cards {
@@ -57,12 +51,9 @@
   flex-wrap: wrap;
   gap: 20px;
 
-
-  
   list-style-position: inside;
   list-style-type: decimal-leading-zero;
 }
-
 
 .courses-cards-item {
   position: relative;
@@ -71,10 +62,10 @@
   padding: 28px;
 
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.20);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   background: var(--gradient);
 
-  color: rgba(255, 255, 255, 0.50);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.28;
@@ -102,7 +93,6 @@
   position: absolute;
   top: 28px;
   right: 28px;
-
 }
 
 /* Card link */
@@ -122,11 +112,9 @@
   transition: background-color 250ms;
 }
 
-
 .card-link-circle:hover {
   background-color: var(--brown);
 }
-
 
 .card-link:hover .card-icon {
   color: var(--white);
@@ -136,18 +124,18 @@
   stroke: currentColor;
 }
 
-                                           /* Tablet (768px) */
+/* Tablet (768px) */
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-  
+
     padding-left: 32px;
     padding-right: 32px;
   }
 
   .our-courses {
-    padding: 50px 0;
+    padding-bottom: 100px;
   }
 
   /* Text block */
@@ -169,11 +157,9 @@
     max-width: 381px;
   }
 
-
-
- /* Card list */
+  /* Card list */
   .courses-cards-item {
-    width: calc((100% - 20px)/2);
+    width: calc((100% - 20px) / 2);
   }
 
   .courses-cards-item {
@@ -182,34 +168,32 @@
     line-height: 1.25;
   }
 
-  
-
   .card-subtitle {
     margin-bottom: 180px;
     margin-top: 46px;
     max-width: 265px;
   }
 
- /* Card link */
+  /* Card link */
 
- .card-link {
-  top: 32px;
-  right: 32px;
- }
+  .card-link {
+    top: 32px;
+    right: 32px;
+  }
 }
 
-                                           /* PC (1280px) */
+/* PC (1280px) */
 
 @media only screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-  
+
     padding-left: 100px;
     padding-right: 100px;
   }
 
   .our-courses {
-    padding: 75px 0;
+    padding-bottom: 150px;
   }
 
   /* Text block */
@@ -219,9 +203,6 @@
 
   /* Card list */
   .courses-cards-item {
-    width: calc((100% - 40px)/3);
+    width: calc((100% - 40px) / 3);
   }
 }
-
-
-
