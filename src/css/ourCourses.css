@@ -1,69 +1,230 @@
 @import url('./variables.css');
-.courses {
+
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+                                 /* Mobile (375px) */
+.container {
+  min-width: 320px;
+  max-width: 375px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.our-courses {
+  padding: 40px 0;
+}
+
+/* Text Block */
+
+
+.courses-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.courses-subtitle {
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.04em;
 }
-.courses span {
-  color: #bea69e;
+
+
+
+.subtitle-accent {
+  color: #BEA69E;
 }
-.our-courses .paragraph {
-  margin-bottom: 30px;
-}
-.course-list p {
+
+.courses-description {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
 }
 
-.course-item {
-  max-width: 335px;
-  max-height: 398px;
-  padding: 28px;
-  outline: 1px solid gray;
-  border-radius: 12px;
-  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%),
-    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
-}
-.course-item:not(:last-child) {
-  margin-bottom: 20px;
-}
-.course-item h3 {
-  margin-bottom: 50px;
-}
 
-.ancor {
+
+/* Cards List */
+
+.courses-cards {
   display: flex;
-  justify-content: space-between;
-  max-width: 279px;
-  height: 32;
+  flex-wrap: wrap;
+  gap: 20px;
+
+
+  
+  list-style-position: inside;
+  list-style-type: decimal-leading-zero;
 }
-@media screen and (min-width: 768px) {
-  .our-courses p {
-    max-width: 381px;
+
+
+.courses-cards-item {
+  position: relative;
+
+  width: 100%;
+  padding: 28px;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  /* 128.571% */
+  letter-spacing: -0.02em;
+}
+
+.card-subtitle {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0;
+
+  margin-top: 41px;
+  margin-bottom: 164px;
+
+  max-width: 265px;
+}
+
+.card-link {
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  top: 28px;
+  right: 28px;
+
+}
+
+/* Card link */
+
+.card-link-circle {
+  width: 32px;
+  height: 32px;
+
+  background-color: #1D1D1D;
+  border-radius: 50%;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #777;
+}
+
+.card-link-circle:hover {
+  background-color: #BEA69E;
+}
+
+
+.card-link .card-icon:hover {
+  stroke: #FFF;
+}
+
+.card-icon {
+  stroke: currentColor;
+}
+
+                                           /* Tablet (768px) */
+
+@media only screen and (min-width: 768px){
+  .container {
+    max-width: 768px;
+  
+    padding-left: 32px;
+    padding-right: 32px;
   }
-  .courses {
-    font-weight: 500;
+
+  .our-courses {
+    padding: 50px 0;
+  }
+
+  /* Text block */
+  .courses-text {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .courses-subtitle {
     font-size: 48px;
     line-height: 1.12;
-    letter-spacing: -0.04em;
   }
-  .courses-present {
-    display: flex;
-    justify-content: space-between;
+
+  .courses-description {
+    font-size: 16px;
+    line-height: 1.25;
+
+    max-width: 381px;
   }
-  .course-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+
+
+
+ /* Card list */
+  .courses-cards-item {
+    width: calc((100% - 20px)/2);
   }
-  .course-item {
-    max-width: 342px;
-    height: 452px;
+
+  .courses-cards-item {
+    padding: 32px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  
+
+  .card-subtitle {
+    margin-bottom: 180px;
+    margin-top: 46px;
+    max-width: 265px;
+  }
+
+ /* Card link */
+
+ .card-link {
+  top: 32px;
+  right: 32px;
+ }
+}
+
+                                           /* PC (1280px) */
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .our-courses {
+    padding: 75px 0;
+  }
+
+  /* Text block */
+  .courses-description {
+    max-width: 405px;
+  }
+
+  /* Card list */
+  .courses-cards-item {
+    width: calc((100% - 40px)/3);
   }
 }
-@media screen and (min-width: 1280px) {
-  .our-courses p {
-    max-width: 407px;
-  }
-}
+
+
+
