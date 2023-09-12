@@ -119,15 +119,17 @@
   justify-content: center;
 
   color: #777;
+  transition: background-color 250ms;
 }
+
 
 .card-link-circle:hover {
-  background-color: #BEA69E;
+  background-color: var(--brown);
 }
 
 
-.card-link .card-icon:hover {
-  stroke: var(--white);
+.card-link:hover .card-icon {
+  color: var(--white);
 }
 
 .card-icon {

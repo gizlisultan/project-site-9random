@@ -19,12 +19,6 @@ ul {
   list-style: none;
 }
 
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
 a {
   color: currentColor;
   text-decoration: none;
@@ -45,4 +39,101 @@ body{
   color: var(--white);
   font-family: var(--mainfont);
   font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
