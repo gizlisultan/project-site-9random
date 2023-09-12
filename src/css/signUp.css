@@ -1,300 +1,313 @@
+.omgitissection {
+  padding-bottom: 80px;
+  /* padding-left: 100px;
+	height: 578px; */
+}
+
+@media only screen and (min-width: 768px) {
+  .omgitissection {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .omgitissection {
+    padding-bottom: 150px;
+  }
+}
+
+.omgitissection {
+  /* max-width: 1280px; */
+}
+.omgitissection {
+  /* max-width: 512px; */
+  margin: 0 auto;
+}
+.omgitissection {
+  /* margin: 0 auto;
+  max-width: 335px; */
+}
 @import url('./variables.css');
 
 .display {
+  /* display: inline-flex;
+  align-items: flex-start;
+  gap: 60px; */
+}
+@media only screen and (min-width: 1280px) {
+  .display {
     display: inline-flex;
     align-items: flex-start;
     gap: 60px;
+  }
 }
-
 .skoworodka {
-    display: flex;
+  display: flex;
 }
 
 @media screen and (min-width: 320px) {
-    .conteiner {
-        max-width: 335px;
+  .conteiner {
+    max-width: 335px;
+  }
 
-    }
+  .photo {
+    display: none;
+  }
 
-    .photo {
-        display: none;
-    }
+  .class {
+    display: none;
+  }
 
-    .class {
-        display: none;
-    }
+  .div {
+    margin-top: 20px;
+    margin-bottom: 41.24px;
+  }
 
-    .div {
-        margin-top: 20px;
-        margin-bottom: 41.24px;
-    }
-
+  .ilovetitle {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.04em;
+    justify-content: left;
+  }
+  @media only screen and (min-width: 768px) {
     .ilovetitle {
-        color: #FFF;
-        font-family: DM Sans;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.15;
-        letter-spacing: -0.04em;
-        justify-content: left;
-    }
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 1.12;
 
+      letter-spacing: -0.04em;
+
+      color: #ffffff;
+    }
+  }
+
+  .thisspaniscool {
+    color: #bea69e;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.04em;
+  }
+  @media only screen and (min-width: 768px) {
     .thisspaniscool {
-        color: #BEA69E;
-        font-family: DM Sans;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.15;
-        letter-spacing: -0.04em;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 1.12;
+
+      letter-spacing: -0.04em;
     }
+  }
 
-    .paragraphiswonderfull {
-        color: #FFF;
-        font-family: DM Sans;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.28;
-        letter-spacing: -0.02em;
-        margin-top: 20px;
-        margin-bottom: 41px;
-        width: 100%;
-        max-width: 295px;
-    }
+  .paragraphiswonderfull {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    margin-top: 20px;
+    margin-bottom: 41px;
+    width: 100%;
+    max-width: 295px;
+  }
 
-    .input {
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.20);
-        border-radius: 12px;
-        height: 46.3px;
-        width: 100%;
-        max-width: 480px;
-        background-color: var(--black, #121212);
-        padding-left: 18px;
-        color: #FFF;
-        opacity: 0.7;
-        max-width: 335px;
-    }
+  .input {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    height: 46.3px;
+    width: 100%;
+    max-width: 480px;
+    background-color: var(--black, #121212);
+    padding-left: 18px;
+    color: #fff;
+    opacity: 0.7;
+  }
 
-    .bag {
+  .bag {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    display: block;
+    max-width: 520px;
+  }
 
-        font-family: DM Sans;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.3;
-        max-width: 335px;
+  .inputtwo {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 112px;
+    width: 100%;
+    max-width: 480px;
+    background-color: var(--black, #121212);
+    padding-left: 18px;
+    opacity: 0.7;
+    padding-top: 15.06px;
 
-    }
+    color: #fff;
+    resize: none;
+  }
 
-    .omgitissection {
+  .mirror {
+    margin-bottom: 8.05px;
+  }
 
-        margin: 0 auto;
-        max-width: 335px;
+  .sign-up-button {
+    display: flex;
+    width: 100%;
+    padding: 14px 127px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: var(--black);
+    background-color: var(--white);
+    max-width: 479px;
+    margin-bottom: 20px;
 
-    }
+    transition: color var(--animation), background-color var(--animation);
+  }
+  .sign-up-button:hover,
+  .sign-up-button:focus {
+    background-color: var(--dark_gray);
+    color: var(--brown);
+  }
+  .aaa.a {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+  }
 
-    .inputtwo {
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.20);
-        height: 112px;
-        width: 100%;
-        max-width: 480px;
-        background-color: var(--black, #121212);
-        padding-left: 18px;
-        opacity: 0.7;
-        padding-top: 15.06px;
+  .aaa.a {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    text-decoration: underline;
+  }
 
-        color: #FFF;
-        resize: none;
+  .prostoparagraph {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
 
-    }
+    margin: 0;
+  }
 
-    .mirror {
-        margin-bottom: 8.05px;
-    }
+  .banka {
+    margin-bottom: 40px;
+  }
 
-    .button {
-        display: flex;
-        width: 100%;
-        padding: 14px 127px;
-        justify-content: center;
-        align-items: center;
-        border-radius: 12px;
-        background: var(--white, #FFF);
-        max-width: 479px;
-        margin-bottom: 20px;
-    }
-
-    .aaa {
-        color: rgba(255, 255, 255, 0.50);
-        font-family: DM Sans;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.33;
-        text-decoration-line: underline;
-
-    }
-
-    .prostoparagraph {
-        color: rgba(255, 255, 255, 0.50);
-        font-family: DM Sans;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.33;
-
-        margin: 0;
-
-
-    }
-
-    .banka {
-        max-width: 335px;
-        margin-bottom: 40px;
-    }
-
-    .divtwo {
-        display: none;
-    }
+  .divtwo {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .conteiner {
-        max-width: 1279px;
-        padding-left: 32px;
-    }
+  .conteiner {
+    max-width: 1279px;
+  }
 
-    .banka {
-        max-width: 512px;
-    }
+  .banka {
+    max-width: 512px;
+  }
 
-    .omgitissection {
-        max-width: 512px;
-        margin: 0;
-    }
+  .prostoparagraph {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+  }
 
-    .prostoparagraph {
-        color: rgba(255, 255, 255, 0.50);
-        font-family: DM Sans;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.28;
+  .mirror {
+    margin-bottom: 14px;
+  }
 
+  .paragraphiswonderfull {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    max-width: 512px;
+  }
 
+  .input {
+    height: 60px;
+  }
 
-    }
+  /* .inputtwo {
+    height: 120px;
+  } */
 
-    .aaa {
-        color: rgba(255, 255, 255, 0.50);
-        font-family: DM Sans;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.28;
-    }
+  .div {
+    display: none;
+  }
 
-    .mirror {
-        margin-bottom: 14px;
-    }
-
-    .paragraphiswonderfull {
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
-        max-width: 512px;
-    }
-
-    .bag {
-        max-width: 512px;
-    }
-
-    .input {
-        max-width: 512px;
-        height: 60px;
-
-    }
-
-    .inputtwo {
-        height: 120px;
-    }
-
-    .div {
-        display: none;
-    }
-
-    .divtwo {
-        display: block;
-    }
+  .divtwo {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .back {
-        max-width: 154px;
-    }
+  .back {
+    max-width: 154px;
+  }
 
-    .class {
-        border-radius: 1000px;
-        background: #BEA69E;
-      width: 180px;
-      padding-bottom: 20px;
-        margin-top: 252px;
+  .class {
+    border-radius: 1000px;
+    background: #bea69e;
+    width: 180px;
+    padding-bottom: 20px;
+    margin-top: 252px;
+  }
 
-    }
+  .lilia {
+    max-width: 480px;
+  }
 
-    .omgitissection {
-        max-width: 1280px;
-    }
+  .class {
+    display: block;
+    margin-right: 20px;
+  }
 
-    .lilia {
-        max-width: 480px;
-    }
+  .photo {
+    border-radius: 1000px;
+    background: #1d1d1d;
+    width: 340px;
+    height: 540px;
+    padding-top: 156px;
+    padding-left: 50px;
+    display: block;
+  }
 
-    .class {
-        display: block;
-        margin-right: 20px;
-    }
-
-    .photo {
-        border-radius: 1000px;
-        background: #1D1D1D;
-        width: 340px;
-        height: 540px;
-        padding-top: 156px;
-        padding-left: 50px;
-        display: block;
-
-    }
-
-    .omgitissection {
-        padding-left: 100px;
-        height: 578px;
-    }
-
-    .ilovetitle {
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.125;
-        letter-spacing: -0.04em;
-    }
-
-    .thisspaniscool {
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.125;
-        letter-spacing: -0.04em;
-    }
-.shadow{  height: 100%;
+  .thisspaniscool {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125;
+    letter-spacing: -0.04em;
+  }
+  .shadow {
+    height: 100%;
     width: 100%;
     object-fit: none;
     object-position: -48px 72px;
-}
+  }
 }

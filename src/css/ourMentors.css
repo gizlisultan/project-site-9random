@@ -3,16 +3,16 @@
 .section {
 }
 .mentors-section {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 @media only screen and (min-width: 768px) {
   .mentors-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .mentors-section {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 }
 .container {
@@ -45,20 +45,20 @@
 }
 .list {
 }
-.mentors-section-list {
+.mentors-section-list.list {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1278px) {
-  .mentors-section-list {
+  .mentors-section-list.list {
     gap: 93px 100px;
     max-width: 476px;
     margin: 0 auto;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .mentors-section-list {
+  .mentors-section-list.list {
     gap: 93px;
     padding-left: 33px;
     padding-right: 33px;
