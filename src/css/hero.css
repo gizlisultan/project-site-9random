@@ -65,7 +65,7 @@
 }
 .hero-students-text {
   display: flex;
-  width: 67px;
+  width: 68px;
   padding-right: 4px;
   font-size: 14px;
   font-weight: 400;
@@ -73,6 +73,10 @@
   letter-spacing: -0.04em;
 }
 .hero-icon {
+}
+.hero-icon-arrow {
+  fill: var(--white);
+  stroke: var(--white);
 }
 .hero-reviews {
   display: flex;
@@ -96,12 +100,24 @@
   display: flex;
   justify-content: center;
 }
+
+.wraper-icon-star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-color: var(--brown);
+}
+
 @media screen and (max-width: 359px) {
   .hero-text {
     font-size: 13px;
   }
   .hero-icon {
-    max-width: 40px;
   }
 }
 @media screen and (max-width: 336px) {
@@ -181,7 +197,6 @@
     letter-spacing: -0.04em;
   }
   .hero-icon {
-    width: 100%;
   }
 }
 
