@@ -2,21 +2,27 @@
 @import url('./reset.css');
 
 .hero-sec {
+  padding-top: 20px;
+  padding-bottom: 80px;
 }
-.container {
-  background: url(../img/Hero/graphic@mobile.png);
-  min-width: 320px;
-  max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
+
+@media only screen and (min-width: 768px) {
+  .hero-sec {
+    padding-top: 40px;
+    padding-bottom: 100px;
+  }
 }
+@media only screen and (min-width: 1280px) {
+  .hero-sec {
+    padding-top: 80px;
+    padding-bottom: 150px;
+  }
+}
+
 .hero-cont {
-  max-width: 335px;
-  background: #1d1d1d;
-  margin-bottom: 80px;
+  background-color: var(--dark_gray);
+
   border-radius: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 .hero-title {
   color: #fff;
@@ -119,13 +125,12 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    background: url(../img/Hero/graphic@tablet.png);
     max-width: 768px;
     padding: 0 32px;
   }
   .hero-cont {
     max-width: 704px;
-    margin-bottom: 100px;
+    /* padding-bottom: 100px; */
     border-radius: 30px;
     padding-left: 32px;
     padding-right: 155px;
@@ -183,14 +188,13 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    background: url(../img/Hero/graphic@desktop.png);
     min-width: 1280px;
     padding: 0 100px;
   }
   .hero-cont {
     display: flex;
     min-width: 1080px;
-    margin-bottom: 150px;
+    /* padding-bottom: 150px; */
     border-radius: 30px;
     padding-top: 80px;
     padding-left: 50px;
