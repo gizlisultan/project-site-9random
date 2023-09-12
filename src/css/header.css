@@ -26,7 +26,7 @@
   }
 }
 
-.logo-header {
+.logo-header.lg {
   margin-top: 17px;
   margin-bottom: 17px;
 }
@@ -54,12 +54,17 @@
     height: 60px;
   }
   .container-head {
-    min-width: 822px;
+    max-width: 822px;
   }
 }
 @media screen and (min-width: 768px) {
   .navbar-header {
     max-width: 822px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .navbar-header {
+    max-width: 982px;
   }
 }
 
@@ -106,7 +111,7 @@
   | TABLET
   |================================================================================================================
 */
-.signup-header {
+.signup-header.h-button {
   width: 186px;
   height: 60px;
   display: inline-flex;
@@ -130,6 +135,11 @@
     max-width: 238px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .signup-header {
+    min-width: 238px;
+  }
+}
 
 .header-list {
   display: inline-flex;
@@ -138,6 +148,11 @@
   max-width: 502px;
   width: 100%;
   margin-top: 21px;
+}
+@media screen and (min-width: 1280px) {
+  .header-list {
+    align-items: center;
+  }
 }
 
 .header-link {
@@ -212,7 +227,7 @@
   padding-top: 180px;
 }
 
-.mobile-menu {
+.mobile-menu.h-list {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -221,6 +236,11 @@
   color: var(--black);
   font-size: 14px;
   text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu.h-list {
+    margin-left: 60px;
+  }
 }
 @media (min-width: 428px) {
   .mobile-menu {
@@ -254,7 +274,7 @@
   }
 }
 @media screen and (max-width: 429px) {
-  .signup-header {
+  .signup-header.h-button {
     display: none;
   }
   .tablet-photo {
