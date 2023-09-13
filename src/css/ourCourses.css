@@ -87,9 +87,6 @@
 }
 
 .card-link {
-  display: flex;
-  align-items: center;
-
   position: absolute;
   top: 28px;
   right: 28px;
