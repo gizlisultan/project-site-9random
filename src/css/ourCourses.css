@@ -93,35 +93,33 @@
   position: absolute;
   top: 28px;
   right: 28px;
-}
 
-/* Card link */
-
-.card-link-circle {
   width: 32px;
   height: 32px;
-
+  
   background-color: var(--dark_gray);
   border-radius: 50%;
-
+  
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
-  color: #777;
-  transition: background-color 250ms;
+  
+  color: var(--white);
+  transition: background-color var(--animation), stroke var(--animation);
 }
 
-.card-link-circle:hover {
+.card-link:hover,
+.card-link:focus {
   background-color: var(--brown);
 }
 
-.card-link:hover .card-icon {
-  color: var(--white);
+.card-link:hover .card-icon,
+.card-link:focus .card-icon {
+  stroke: currentColor;
 }
 
 .card-icon {
-  stroke: currentColor;
+  stroke: #777;
 }
 
 /* Tablet (768px) */
