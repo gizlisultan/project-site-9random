@@ -93,14 +93,14 @@
 
   width: 32px;
   height: 32px;
-  
+
   background-color: var(--dark_gray);
   border-radius: 50%;
-  
+
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  
+
   color: var(--white);
   transition: background-color var(--animation), stroke var(--animation);
 }
