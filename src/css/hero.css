@@ -20,6 +20,9 @@
 }
 
 .hero-cont.hc {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   max-width: 335px;
   background-color: var(--dark_gray);
 
@@ -32,7 +35,6 @@
   line-height: 1.1; /* 110% */
   letter-spacing: -0.04em;
   margin-bottom: 20px;
-  padding-top: 40px;
 }
 .hero-text {
   color: #fff;
@@ -54,7 +56,7 @@
   margin-bottom: 31px;
 }
 .hero-students-img {
-  padding-right: 40px;
+  margin-right: 40px;
 }
 .hero-students {
   padding-bottom: 4px;
@@ -65,14 +67,26 @@
 }
 .hero-students-text {
   display: flex;
-  width: 67px;
+  width: 68px;
   padding-right: 4px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29; /* 128.571% */
   letter-spacing: -0.04em;
+
+  transition: color var(--animation);
 }
+
+.hero-students-text:hover,
+.hero-students-text:focus {
+  color: var(--brown);
+}
+
 .hero-icon {
+}
+.hero-icon-arrow {
+  fill: var(--white);
+  stroke: var(--white);
 }
 .hero-reviews {
   display: flex;
@@ -96,12 +110,24 @@
   display: flex;
   justify-content: center;
 }
+
+.wraper-icon-star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-color: var(--brown);
+}
+
 @media screen and (max-width: 359px) {
   .hero-text {
     font-size: 13px;
   }
   .hero-icon {
-    max-width: 40px;
   }
 }
 @media screen and (max-width: 336px) {
@@ -137,7 +163,6 @@
     padding-right: 155px;
   }
   .hero-title {
-    padding-top: 64px;
     color: #fff;
     font-size: 60px;
     font-weight: 500;
@@ -175,13 +200,13 @@
     margin-bottom: 8px;
     width: 82px;
   }
+
   .hero-reviews-text {
     font-size: 16px;
     line-height: 20px; /* 125% */
     letter-spacing: -0.04em;
   }
   .hero-icon {
-    width: 100%;
   }
 }
 
@@ -219,12 +244,11 @@
   .photography {
   }
   .hero-text {
-    padding-bottom: 135px;
     width: 418px;
-    height: 54px;
     flex-shrink: 0;
     line-height: 1.28; /* 128.571% */
     letter-spacing: -0.02em;
+    margin-bottom: 137px;
   }
   .hero-students-text {
     letter-spacing: -0.02em;
