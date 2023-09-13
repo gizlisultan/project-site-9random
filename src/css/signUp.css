@@ -128,8 +128,13 @@
     padding-left: 18px;
     color: #fff;
     opacity: 0.7;
+    transition: border var(--animation);
   }
-
+  .input:hover,
+  .input:focus {
+    border: 1px solid var(--white);
+    opacity: 50%;
+  }
   .bag {
     font-family: DM Sans;
     font-size: 14px;
