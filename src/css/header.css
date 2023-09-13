@@ -307,6 +307,10 @@
   position: fixed;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  /* left: 0; */
   width: 100%;
   background-color: transparent;
   transition: transform 0.3s ease;

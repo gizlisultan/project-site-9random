@@ -15,7 +15,7 @@
 <symbol id="icon-empty-star" viewBox="0 0 34 32">
 <path  style="fill: var(--color2, #fff)" opacity="0.2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8824" stroke="#000" d="M16.941 1.882l4.653 9.293 10.406 1.499-7.529 7.229 1.777 10.213-9.306-4.825-9.306 4.825 1.777-10.213-7.529-7.229 10.406-1.499 4.653-9.293z"></path>
 </symbol>
-<symbol id="icon-arrow_2" viewBox="0 0 32 32">
+<symbol id="icon-arrow-2" viewBox="0 0 32 32">
 <path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
 <path  stroke="#777" style="stroke: var(--color3, #777)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3" d="M11 21l10-10"></path>
 <path  stroke="#777" style="stroke: var(--color3, #777)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3" d="M14.333 11h6.667v6.667"></path>
@@ -31,7 +31,7 @@
 <symbol id="icon-camera_symbol" viewBox="0 0 32 32">
 
 </symbol>
-<symbol id="icon-Menu_burger" viewBox="0 0 47 32">
+<symbol id="icon-menu-burger" viewBox="0 0 47 32">
 <path  stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M8.538 5.333h36.553"></path>
 <path  stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M8.538 24.727h36.553"></path>
 <path  stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M19.668 15.030h25.423"></path>
@@ -51,7 +51,7 @@
   <path d="M115.079 8.88H119.903C119.855 7.128 118.703 6.288 117.479 6.288C116.231 6.288 115.199 7.248 115.079 8.88ZM123.119 10.848H114.983C115.079 12.624 116.087 13.776 117.623 13.776C118.631 13.776 119.519 13.272 119.735 12.456H122.951C122.231 14.88 120.287 16.248 117.767 16.248C113.831 16.248 111.863 14.088 111.863 9.816C111.863 6.168 113.951 3.816 117.575 3.816C121.199 3.816 123.119 6.168 123.119 10.848Z" fill="white"/>
 </svg>
 </symbol>
-<symbol id="icon-close_button" viewBox="0 0 32 32">
+<symbol id="icon-close-button" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M24 8l-16 16"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M8 8l16 16"></path>
 </symbol>
